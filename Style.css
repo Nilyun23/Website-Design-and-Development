@@ -1,0 +1,11 @@
+body{
+    background-color:lightsalmon;  
+      color: royalblue;
+}
+ h1{   
+     color: mediumvioletred;
+     background-color: palegreen;
+     font: italic 200% fantasy;
+     text-align: center;
+     border:3px groove rebeccapurple;
+}
