@@ -1,0 +1,36 @@
+body{
+    background-color:lightsalmon;  
+    background-image: url("image1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+      color: blue;
+
+}
+
+ h1{   
+     color: mediumvioletred;
+     background-color: palegreen;
+     font: italic 200% fantasy;
+     text-align: center;
+     border:3px groove rebeccapurple;
+     padding: 10px;
+}
+
+h2{
+  color: darkslategrey;
+  background-color: hotpink;
+  padding: 10px;
+}
+
+h3{
+  color: darkred;
+  background-color: yellowgreen;
+  width: fit-content;
+  padding: 10px;
+}
+
+h4{
+  color:white;
+  background-color: brown;
+  padding: 10px;
+}
