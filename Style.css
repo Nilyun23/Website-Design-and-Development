@@ -74,3 +74,11 @@ table{
   padding: 10px;
   width: 500px;
 }
+
+/*Classes-- you can change a particular tag using the class-- all you need is just a dot notation*/
+
+.TopNav{ /* Top NAVIGATION-- . is start of class*/
+  background-color: deeppink;
+  width: auto;
+  padding: 10px;
+}
