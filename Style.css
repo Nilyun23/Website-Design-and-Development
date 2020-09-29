@@ -63,8 +63,8 @@ a{
 
 /*a:hover is to make the text change color when being hovered upon*/
 a:hover{
-  background-color: lightcoral;
-  color: burlywood;
+  background-color: purple;
+  color: dimgrey;
   padding: 10px;
 }
 
@@ -77,8 +77,35 @@ table{
 
 /*Classes-- you can change a particular tag using the class-- all you need is just a dot notation*/
 
-.TopNav{ /* Top NAVIGATION-- . is start of class*/
+.TopNav{ /* Top NAVIGATION-- (.) is start of class*/
   background-color: deeppink;
   width: auto;
   padding: 10px;
 }
+
+/* Format the form fields
+input type "text" means what kind of type you have given your form.. eg password or text*/
+
+input[type=text] {
+  width: 100%; /*how long do you want it to be* eg 100%.. full screen*/
+  padding: 15px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+  background-color: steelblue;
+  color: white;
+}
+
+input[type=text]:focus{
+  border:5px solid #3b0320;
+}
+
+input[type=password] {
+  width: 100%; /*how long do you want it to be* eg 100%.. full screen*/
+  padding: 15px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+  background-color: steelblue;
+  color: white;
+}
+  
+
