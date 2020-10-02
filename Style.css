@@ -108,4 +108,35 @@ input[type=password] {
   color: white;
 }
   
+/* Format the buttons*/
+
+input[type=submit]{
+  background-color: darkslategray;
+  color: beige;
+  width: fit-content;
+  padding: 10px 22px;
+  border:5px solid aquamarine;
+} 
+
+input[type=reset]{
+  background-color: darkslategray;
+  color: beige;
+  width: fit-content;
+  padding: 10px 22px;
+  border:5px solid aquamarine;
+} 
+
+input[type=submit]:hover{
+  background-color:beige;
+  color:darkslategray;
+  border-radius: 10px;
+  width: 120px;
+}
+
+input[type=reset]:hover{
+  background-color:beige;
+  color:darkslategray;
+  border-radius: 10px;
+  width: 120px;
+}
 

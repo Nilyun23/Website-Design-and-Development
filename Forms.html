@@ -22,11 +22,77 @@
 
         <form action="Results.html" method="POST">
 
-            FirstName: <input type="text" size="50" value="Type your first name here" name="Fname" />
-            LastName: <input type="text" size="30" value="Type your last name here" name="lname" /> <br>
+<!--"required" will not let the user carry on without filling the fields-->
 
-            Password: <input type="password" size="30"  name="pname"/>
+            FirstName: <input type="text" size="50"  name="Fname"  required  placeholder="First Name"/>
 
+            LastName: <input type="text" size="30" name="lname" required  placeholder="Last Name"/> <br>
+
+            Password: <input type="password" size="30"  name="pname" required placeholder="Password"/> <br>
+
+            <!--Checkboxes -->
+
+    <h3>Hobbies</h3>
+
+            <input type="checkbox" value="Swim" name="Hobbies"> Swimming
+
+            <input type="checkbox" value="Music" name="Hobbies"> Listening to Music
+
+            <input type="checkbox" value="Travel" name="Hobbies"> Travelling<br>
+
+            <input type="checkbox" value="Read" name="Hobbies"> Reading
+
+            <input type="checkbox" value="Hike" name="Hobbies"> Hiking
+
+            <!--Radio or Option buttons-->
+
+    <h4>How old are you?</h4>
+
+            <input type="radio" value="under" name="Age" > 15-18 <br>
+
+            <input type="radio" value="over" name="Age" > 19-25 <br>
+
+            <input type="radio" value="youth" name="Age" > 26-35 <br>
+
+            <input type="radio" value="old" name="Age" > 36 and above
+
+            <!--ComboBox or Dropdown Menu--Select-->
+
+    <h5>Select your County</h5>
+
+            <select>
+                <option>Nairobi</option>
+
+                <option>Mombasa</option>
+
+                <option>Kisumu</option>
+
+                <option>Nyeri</option>
+
+                <option>Machakos</option>
+
+                <option> Baringo</option>
+
+                <option>Kisii</option>
+
+                <option>Nakuru</option>
+            </select>
+
+        <!--Text area-- textbox with multiple lines and columns-->
+
+    <h6>Type your comments here</h6>
+
+            <textarea rows="10" cols="50">
+                HERE YOUR OPINION MATTERS
+            </textarea>
+
+
+
+<p></p> 
+
+        <input type="submit" value="Click Me" name="Submit" />
+
+            <input type="reset" value="Cancel" name="Reset" />
 
         </form>
         
